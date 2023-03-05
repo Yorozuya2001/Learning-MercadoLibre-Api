@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img class="logo" src="./ml-api.png" alt="logo" />
+        <div class="inputs">
+          <input id="input" type="search" placeholder="Buscar producto..." />
+          <input id="search" type="submit" />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div id="results"></div>
+    </main>
+    <template id="template">
+      <div class="container">
+        <div class="img-container">
+          <img class="product-image" src="" alt="" />
+        </div>
+        <div class="data-container">
+          <h1 class="product-title"></h1>
+          <p class="seller"></p>
+          <div class="price-and-link">
+            <h2 class="price"></h2>
+            <a class="button" href="" target="_blank">Ver en MercadoLibre</a>
+          </div>
+        </div>
+      </div>
+    </template>
+    <script src="./index.js"></script>
+  </body>
+</html>
